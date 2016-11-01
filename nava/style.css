@@ -1,0 +1,30 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+nav ul {
+  background-color: palevioletred;
+  list-style: none;
+  padding: 0;
+  width: 100px;
+  border: 4px solid pink;
+}
+
+nav ul li {
+  border-bottom: 4px solid pink;
+  padding: 5px;
+}
+
+nav ul li:last-child {
+  border-bottom: none;
+}
+
+nav ul li a {
+  color: deepskyblue;
+  text-decoration: none
+    font:cursive;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
