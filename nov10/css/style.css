@@ -1,0 +1,17 @@
+.main-news {
+  background-color: lightblue;
+}
+.normal-news{
+  background-color: lightyellow;
+}
+#main-content{
+  background-color: red;
+
+}
+ul {
+  background-color: violet;
+  list-style: none;
+  padding:0;
+  width:200px;
+  border:1px solid darkviolet;
+}
