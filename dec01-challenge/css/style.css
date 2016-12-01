@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i,400i');
+
+body {
+  font-family: 'open-sans', sans-serif;
+  color: purple;
+  display: inline-block;
+}
+section {
+  text-align: center;
+  padding: 20px;
+}
+a {
+  background-color: purple;
+  color:white;
+  text-decoration:none;
+  padding: 8px 15px;
+  border-radius: 4px;
+
+}
+img {
+  clear: both;
+  display: block;
+  content: '';
+  width: 110%;
+
+}
