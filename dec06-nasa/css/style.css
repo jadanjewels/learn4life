@@ -1,0 +1,15 @@
+#saturn {
+  float: right;
+}
+#mars {
+  float: left;
+  clear:both;
+  display: block;
+  content: '';
+}
+/*section{*/
+
+}
+/*#events {*/
+float:right;
+}
