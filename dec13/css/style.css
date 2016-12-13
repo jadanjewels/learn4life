@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+#main {
+  background-image: url('../img/Protest_LOWRESS_1548-1701x1111-c-default.jpg');
+  height: 650px;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+h1 {
+  float: left;
+  text-align: center;
+  margin-right: 400px;
+  margin-top: 200px;
+  color: white;
+  font-size: 400%;
+  display: inline-block;
+  text-shadow: 90px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul li {
+  width: calc(1160px / 3);
+  display: inline-block;
+  float: left;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+}
+ul li a {
+  text-decoration: none;
+  color: darkblue;
+}
