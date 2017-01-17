@@ -1,0 +1,19 @@
+div {
+  text-align: center;
+  border: 3px solid grey;
+  height: 450px;
+  width:400px;
+  margin-left: 350px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 40px;
+}
+img {
+  border: 2px solid grey;
+  border-radius: 100%;
+  height: 240px;
+  width: 240px;
+}
+h1{
+  color: red;
+}
