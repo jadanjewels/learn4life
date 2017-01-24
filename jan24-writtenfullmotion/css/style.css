@@ -1,0 +1,33 @@
+div {
+  margin: 0 auto;
+  width: 33%;
+  padding-bottom: 20px;
+  text-align: center;
+  border: 1px solid lightgrey;
+  transition: box-shadow 400ms ease-in-out;
+  display:inline-block;
+  margin-bottom: 30px;
+}
+
+div:hover {
+  box-shadow: 0 15px 19px 7px lightgrey;
+}
+img {
+  width: 100%;
+}
+p {
+padding: 6px;
+  text-align: center;
+}
+a {
+  margin: 15px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 2px solid green;
+  border-radius: 1px;
+  color: green;
+  margin-bottom: 20px;
+}
+a:hover {
+  background-color: green;
+  color: white;
