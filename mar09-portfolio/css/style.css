@@ -65,7 +65,7 @@ header a:hover {
 #first img {
   width: 20%;
   height: auto;
-  border: 1px solid white;
+  border: 1px solid red;
   border-radius: 50%;
 }
 #first a {
@@ -117,13 +117,4 @@ li {
   display: flex;
   justify-content: space-between;
 }
-#second img {
-  width: 100%;
-  height: auto;
-}
-#second ul {
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-
-}
+/*http://paletton.com/palette.php?uid=13h0u0kndxX8GT6h6HluFtJxiko*/
