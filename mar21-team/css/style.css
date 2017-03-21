@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: hsl(180, 2%, 90%);
+}
+header {
+  background-color: white;
+  padding: 20px 20px;
+  margin: 20px 40px;
+}
+img {
+  width: 40%;
+  height: auto;
+}
