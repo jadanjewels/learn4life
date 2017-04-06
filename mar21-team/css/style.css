@@ -8,18 +8,44 @@ body {
   font-family: 'Raleway', sans-serif;
   background-color: hsl(0, 0%, 95.7%);
 }
+header a {
+color: hsl(180, 1%, 88%);
+text-decoration: none;
+display: block;
+padding: 15px 25px;
+font-family: 'Open Sans', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 14px;
+position: relative;
+transition: color .25s;
+}
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: inline-block;
+  zoom: 1;
+  font-size: 0;
+}
 header {
-  padding: 100px 90px;
-  margin-top: 20px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1473777785975-efb668f9ea99?dpr=1.5&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: hsl(0, 0%, 100%);
+  margin-bottom: 30px;
+}
+header a:hover {
+  color: hsla(176, 98%, 49%, 0.7);
+}
+header ul li a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: #333333;
+  transition: width .25s;
 }
 nav li {
   display: inline-block;
@@ -31,28 +57,18 @@ h1 {
   justify-content: center;
   color: hsl(0, 1.1%, 18.2%);
   padding: 5%;
-  color: hsla(0, 0%, 100%, 0.81);
-}
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-
+  color: hsl(169, 80%, 66%);
 }
 header a {
-  /*border: 2px solid hsl(0, 1.1%, 18.2%);*/
   border-radius: 5px;
   padding: 10px 30px;
   text-decoration: none;
   color: hsl(0, 1.1%, 18.2%);
   transition: box-shadow 400ms ease-out;
-  color: white;
+  color: hsl(169, 75%, 62%);
 }
 header a:hover {
-  color: white;
-  box-shadow: 7px 7px 7px hsla(0, 0%, 0%, 0.47);
-
-
+  color: hsla(179, 100%, 71%, 0.71);
 }
 #first{
   padding: 150px 90px;
@@ -91,7 +107,7 @@ header a:hover {
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 5px;
-  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1487780711836-2b1fe5783580?dpr=1.5&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1480789261196-2df71e5ab018?dpr=1.5&amp;auto=format&amp;fit=crop&amp;w=1500&amp;h=1000&amp;q=80&amp;cs=tinysrgb&amp;crop=);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
