@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url(' https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css');
 
-/*body {
+body {
   margin:0;
   font-family: 'Raleway', sans-serif;
   background-color: hsl(0, 0%, 95.7%);
-}*/
+}
 header {
   padding: 100px 90px;
   margin-top: 20px;
@@ -13,8 +13,7 @@ header {
   margin-right: 100px;
   margin-bottom: 20px;
   border-radius: 5px;
-  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1473777785975-efb668f9ea99?dpr=1.5&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
-  background-repeat: no-repeat;
+  background-image: linear-gradient( hsla(187, 98%, 25%, 0.19),hsla(188, 82%, 43%, 0.09) ), url("https://images.unsplash.com/photo-1461353567178-49dde8f6da50?dpr=1.5&auto=format&fit=crop&w=1500&h=847&q=80&cs=tinysrgb&crop=&bg=");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -65,7 +64,6 @@ header a:hover {
 #first img {
   width: 20%;
   height: auto;
-  border: 1px solid red;
   border-radius: 50%;
 }
 #first a {
@@ -83,13 +81,15 @@ header a:hover {
   padding: 100px 90px;
   margin-left: 100px;
   margin-right: 100px;
+  text-align: center;
 }
 #third {
   padding: 200px 90px;
   margin-left: 100px;
   margin-right: 100px;
+  text-align: center;
   border-radius: 5px;
-  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1487780711836-2b1fe5783580?dpr=1.5&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+  background-image: linear-gradient(hsla(187, 98%, 25%, 0.19),hsla(188, 82%, 43%, 0.09)), url("https://images.unsplash.com/photo-1414005987108-a6d06de8769f?dpr=1.5&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=&bg=");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
