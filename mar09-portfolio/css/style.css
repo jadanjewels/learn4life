@@ -81,7 +81,15 @@ header a:hover {
   padding: 100px 90px;
   margin-left: 100px;
   margin-right: 100px;
+  width: 4px;
+  height: auto;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
 }
 #third {
   padding: 200px 90px;
