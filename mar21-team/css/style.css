@@ -101,10 +101,36 @@ header a:hover {
 
 }
 #second {
-  padding: 100px 90px;
+  padding: 150px 90px;
   margin-left: 100px;
   margin-right: 100px;
+  text-align: center;
 }
+#second img {
+  width: 20%;
+  height: 20%
+}
+  #second ul {
+    padding: 10px 10px;
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+  }
+#second nav {
+    border-top: 2px solid hsl(0, 1.1%, 18.2%);
+  }
+#second a {
+    color: hsl(0, 1.1%, 18.2%);
+    text-decoration: none;
+  }
+#second a:hover {
+    color: hsl(169, 75%, 62%);
+  }
 #third {
   padding: 200px 90px;
   margin-left: 100px;
@@ -115,6 +141,10 @@ header a:hover {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+#third a {
   color: white;
 }
 footer {
@@ -133,67 +163,3 @@ footer a:hover {
   color: hsl(126, 25%, 57%);
 
 }
-li {
-  color: white;
-  display: flex;
-  justify-content: space-between;
-}
-/*#first img {
-  width: 20%;
-  height: auto;
-  border: 1px solid red;
-  border-radius: 50%;
-}
-#first a {
-  padding: 10px 25px;
-  text-decoration: none;
-  color: hsl(0, 0%, 26.7%);
-  border-radius: 5px;
-  transition: box-shadow 400ms ease-out;
-}
-#first a:hover {
-  box-shadow: 7px 7px 7px hsla(0, 0%, 0%, 0.47);
-
-}
-#second {
-  padding: 100px 90px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-#third {
-  padding: 200px 90px;
-  margin-left: 100px;
-  margin-right: 100px;
-  border-radius: 5px;
-  background-image: linear-gradient(hsla(100, 20%, 10%, .7), hsla(100, 30%, 30%, .5)), url(https://images.unsplash.com/photo-1487780711836-2b1fe5783580?dpr=1.5&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: white;
-}
- }
- footer {
-   padding: 25px 10%;
-   margin-top: 20px;
-   text-align: center;
- }
- footer nav {
-   border-top: 2px solid hsl(0, 1.1%, 18.2%);
-
- }
- footer li {
-   list-style: none;
-   display: flex;
-   justify-content: space-between;
-   flex-direction: row;
- }
- footer a {
-   color: hsl(0, 1.1%, 18.2%);
-   text-decoration: none;
-
- }
- footer a:hover {
-   color: hsl(176, 98%, 49%);
-
- }*/
