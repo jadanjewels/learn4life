@@ -49,10 +49,9 @@ header a:hover {
   color: white;
   box-shadow: 7px 7px 7px hsla(0, 0%, 0%, 0.47);
 
-
 }
 #first{
-  padding: 150px 90px;
+  padding: 200px 90px;
   margin-left: 100px;
   margin-right: 100px;
   border-radius: 5px;
@@ -78,18 +77,38 @@ header a:hover {
 
 }
 #second {
-  padding: 100px 90px;
+  padding: 160px 90px;
   margin-left: 100px;
   margin-right: 100px;
-  width: 4px;
-  height: auto;
+  border-radius: 5px;
+  color: hsl(0, 0%, 26.7%);
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+#second a {
+  padding: 8px 25px;
+  text-decoration: none;
+  color: hsl(0, 0%, 26.7%);
+  border-radius: 5px;
+  transition: box-shadow 400ms ease-out;
+}
+#second a:hover {
+  box-shadow: 7px 7px 7px hsla(0, 0%, 0%, 0.47);
+}
+#secondport {
+  padding: 160px 90px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 5px;
+  color: hsl(0, 0%, 26.7%);
+  text-align: center;
 
-
-
+}
+#secondport a {
+  width: 5px auto;
+  padding: 8px 25px;
+  text-decoration: none;
+  color: hsl(0, 0%, 26.7%);
+  border-radius: 5px;
 }
 #third {
   padding: 200px 90px;
@@ -104,20 +123,32 @@ header a:hover {
   background-attachment: fixed;
   color: white;
 }
+#third a {
+  border-radius: 5px;
+  padding: 8px 30px;
+  text-decoration: none;
+  color: hsl(0, 1.1%, 18.2%);
+  transition: box-shadow 400ms ease-out;
+  color: white;
+}
+#third a:hover {
+  color: white;
+  box-shadow: 7px 7px 7px hsla(0, 0%, 0%, 0.47);
+}
 footer {
   padding: 25px 10%;
   margin-top: 20px;
   text-align: center;
 }
 footer nav {
-  border-top: 2px solid hsl(0, 1.1%, 18.2%);
+  border-top: 2px solid ;
 }
 footer a {
   color: hsl(0, 1.1%, 18.2%);
   text-decoration: none;
 }
 footer a:hover {
-  color: hsl(126, 25%, 57%);
+  color: hsl(172, 42%, 58%);
 
 }
 li {
